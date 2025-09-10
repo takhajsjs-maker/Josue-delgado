@@ -31,4 +31,5 @@ if opcion_1 == "quedarse":
         print("se te acaba la comida super rapido, no tienes nada")
         opcion_1_2 = input()
     else:
-        print(" estas muy indesiso y no sabes que hacer")          
+
+        print(" estas muy indesiso no sabes que hacer y mueres ")          
