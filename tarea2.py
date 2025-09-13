@@ -1,10 +1,8 @@
-mi_diccionario = {
-"nombre":"josue",
-"Apellido": "delgado",
-"edad": 18,
-"color favorito": "rojo",
+# Conversor de Temperatura 🌡
+#Enunciado: Convierte grados Celsius a Fahrenheit.
+#Requerimientos: Pedir Celsius, aplicar la fórmula F = (C * 9/5) + 32 y mostrar.
 
-}
+celsius = float(input("Ingresa la temperatura en grados Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f"La temperatura en grados Fahrenheit es: {fahrenheit}")
 
-for clave, valor in mi_diccionario.items():
-    print(f"\n clave: {clave}, valor: {valor}")
