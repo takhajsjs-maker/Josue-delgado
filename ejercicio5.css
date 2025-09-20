@@ -1,0 +1,25 @@
+.destacado {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+body{
+
+    background-color: rgba(15, 15, 1, 0.74);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+#resumen{
+
+    background-color: rgb(110, 32, 49);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
