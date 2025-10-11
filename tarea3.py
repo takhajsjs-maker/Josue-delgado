@@ -1,9 +1,9 @@
-#Concatenación de Cadenas ✍
-#Enunciado: Pide nombre y apellido y muéstralos juntos.
-#Requerimientos: Usar input() y el operador + para unir los strings con un espacio.
+#Área de un Rectángulo:
+# Enunciado: Calcula el área de un rectángulo.
+#Requerimientos: Declara variables base y altura, usa el operador * y muestra el resultado.
 
-nombre = input("Ingresa tu nombre: ")
-apellido = input("Ingresa tu apellido: ")
-nombre_completo = nombre + " " + apellido
-print("Tu nombre completo es:", nombre_completo)
+base = float(input("ingrese la base: "))
+altura = float(input("ingrese la altura: "))
 
+area = (base * altura)
+print(f"el resultado de la area es: {area} ")
